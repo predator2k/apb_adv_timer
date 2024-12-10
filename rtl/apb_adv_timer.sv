@@ -7,6 +7,8 @@
 // this License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
 // CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
+`resetall
+`timescale 1ns / 1ps
 
 module apb_adv_timer #(
   parameter APB_ADDR_WIDTH = 12,
@@ -587,3 +589,5 @@ module apb_adv_timer #(
   end
 
 endmodule // apb_adv_timer
+
+`resetall
